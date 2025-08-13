@@ -27,6 +27,7 @@ Users can add tasks, mark them as completed, and delete them. Completed tasks ar
 ## Live Demo
 
 You can see the app live here:  
-https://to-do-list-app-6a3y.onrender.com
+[Watch Live](https://to-do-list-app-6a3y.onrender.com)
+
 
 ---
