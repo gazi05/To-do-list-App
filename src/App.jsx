@@ -1,4 +1,5 @@
-import Input from "./components/Input";
+import Input_Field from "./components/Input_Field";
+import Input from "./components/Input_Field";
 import { useState } from "react";
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
         To Do List App
       </h1>
 
-      <Input
+      <Input_Field
         value={content}
         placeH="Add your task"
         onChangeText={(e) => setContent(e.target.value)}
@@ -52,6 +53,7 @@ function App() {
                 ? "bg-green-100 border-green-400"
                 : "bg-white border-gray-200 hover:shadow-lg"
             }`}
+
           >
             <span
               className={`text-lg ${

@@ -1,4 +1,4 @@
-function Input({ value, placeH, onChangeText, onClickAdd }) {
+function Input_Field({ value, placeH, onChangeText, onClickAdd }) {
   return (
     <div className="flex justify-center items-center h-32">
       <input
@@ -21,4 +21,5 @@ function Input({ value, placeH, onChangeText, onClickAdd }) {
   );
 }
 
-export default Input;
+
+export default Input_Field;
